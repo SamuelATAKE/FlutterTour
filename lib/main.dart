@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:tour/awesome_notification_service.dart';
 import 'package:tour/home.dart';
+import 'package:tour/home3.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
               summary: 'FunkyApp',
             );
             navigatorKey.currentState?.pushReplacement(
-                MaterialPageRoute(builder: (context) => const Home()));
+                MaterialPageRoute(builder: (context) => const Homee()));
           },
           onSkipPress: () {
             navigatorKey.currentState?.pushReplacement(
